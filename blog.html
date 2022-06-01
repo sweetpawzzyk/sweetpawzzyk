@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name= "viewport" content="with=device-width, initial-scale=1.0">
+    <title>PetSitterWebsite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,200;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/3129783ab2.js" crossorigin="anonymous">
+</script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+              <a href="Homepage.html"><img src="images/logo.png"></a>
+              <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                  <ul>
+                    <li><a href="Homepage.html">HOME PAGE</a></li>
+                    <li><a href="aboutUs.html">ABOUT US</a></li>
+                    <li><a href="blog.html">BLOGS</a></li>
+                    <li><a href="Contact.html">CONTACT US</a></li>
+                  </ul>
+              </div>
+              <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Here our daily blogs</h1>
+
+    </section>
+
+<!--------- Toggle menu ------------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+<!--------- blogs page--------->
+
+<section class="blog-content">
+
+    <div class="row">
+            <div class="blog-left">
+              <img src="images/vlogg.jpg">
+              <h2>Here are some activities from our staffs during their work hour</h2>
+              <p>As a pet sitter, you would be expected to go on a lot of dog walks. Pet parents want their dogs to be walked and some would even expect you to run with the floofs! Get familiar with the neighbourhood before you go on a dog walk so you can safely walk the dog without aggravating them. You can also discuss the dog walking goals with the pet owners beforehand.
+                <br> Grooming the pets is also a part of pet care services. This includes brushing their coats, cleaning their teeth, bathing them, trimming their nails, cleaning their ears, etc. One of these tasks also includes cleaning up any accidents and doing waste removal.
+                Ideally, socialisation should happen in the first 12 months of a puppy’s life. This is the critical period for learning behaviours and forming habits. However, don’t panic if you have a dog that missed out when they were young. There is still hope for your older dog!
+              </p>
+              <br>
+              <p>
+                As a pet sitter, you would be expected to go on a lot of dog walks. Pet parents want their dogs to be walked and some would even expect you to run with the floofs! Get familiar with the neighbourhood before you go on a dog walk so you can safely walk the dog without aggravating them. You can also discuss the dog walking goals with the pet owners beforehand.
+                  <br> Grooming the pets is also a part of pet care services. This includes brushing their coats, cleaning their teeth, bathing them, trimming their nails, cleaning their ears, etc. One of these tasks also includes cleaning up any accidents and doing waste removal.
+                  Ideally, socialisation should happen in the first 12 months of a puppy’s life. This is the critical period for learning behaviours and forming habits. However, don’t panic if you have a dog that missed out when they were young. There is still hope for your older dog!
+              </p>
+
+              <div class="comment-box">
+
+                <h3>Leave a Comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="8" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="sigh-btn co-btn" >Post Comment</button>
+                </form>
+
+              </div>
+
+
+
+
+
+
+            </div>
+    <div class="blog-right">
+        <h3>Daily Blogs</h3>
+        <div>
+          <span>NDIS Funding, Pet and Companion Animals</span>
+          <span>13</span>
+        </div>
+        <div>
+          <span>Do's and Dont's of Pet Sitting</span>
+          <span>34</span>
+          </div>
+          <div>
+          <span>Emotional Support Animals</span>
+          <span>23</span>
+          </div>
+          <div>
+          <span>How to Find A Pet Friendly Property</span>
+          <span>25</span>
+          </div>
+          <div>
+          <span>How to make $10000 as Pet Sitter</span>
+          <span>12</span>
+          </div>
+        </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!--------- footer--------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Keep your dog on its leash in public areas, unless it’s an ‘off leash’ zone. Contact your local council about areas where dogs can be exercised off leash.
+    Supervise your dog around young children.
+    <br>Take a plastic bag or scoop to clean up your dog’s poo.
+    Make sure your dog is properly identified.
+    Make sure your dog is desexed.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+    </div>
+    <p>@SweetPaw</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>

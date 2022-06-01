@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name= "viewport" content="with=device-width, initial-scale=1.0">
+    <title>PetSitterWebsite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,200;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/3129783ab2.js" crossorigin="anonymous">
+</script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+              <a href="Homepage.html"><img src="images/logo.png"></a>
+              <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                  <ul>
+                    <li><a href="Homepage.html">HOME PAGE</a></li>
+                    <li><a href="aboutUs.html">ABOUT US</a></li>
+                    <li><a href="blog.html">BLOGS</a></li>
+                    <li><a href="Contact.html">CONTACT US</a></li>
+                  </ul>
+              </div>
+              <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+<!------JavaScript for Toggle Menu--------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+<!--------- about us page--------->
+
+<section class="about-us">
+
+  <div class="row">
+    <div class="about-col">
+          <h1>Welcome to SweetPaw</h1>
+          <p>We have built our bond with animals since the day we was born. That why this website being created. Most importantly the reason why we started this business because we find it hard for us whenever we have to leave our beloved pet at home alone whenever we leave for holiday or somewhere else. Hence, in order to solve this kind of problem for our client we start this website to help out our pet lovers to solve their problem.<br> And with SweetPaw you are in the right place.</p>
+          <a href="blog.html" class="sigh-btn co-btn">Find Out More</a>
+    </div>
+      <div class="about-col"></div>
+        <img src="Images/gg.jpg">
+  </div>
+</section>
+
+<!--------- footer--------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Keep your dog on its leash in public areas, unless it’s an ‘off leash’ zone. Contact your local council about areas where dogs can be exercised off leash.
+    Supervise your dog around young children.
+    <br>Take a plastic bag or scoop to clean up your dog’s poo.
+    Make sure your dog is properly identified.
+    Make sure your dog is desexed.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+    </div>
+    <p>@SweetPaw</p>
+</section>
+
+
+</body>
+
+
+</html>

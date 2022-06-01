@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name= "viewport" content="with=device-width, initial-scale=1.0">
+    <title>PetSitterWebsite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,200;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/3129783ab2.js" crossorigin="anonymous">
+</script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+              <a href="Homepage.html"><img src="images/logo.png"></a>
+              <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                  <ul>
+                    <li><a href="Homepage.html">HOME PAGE</a></li>
+                    <li><a href="aboutUs.html">ABOUT US</a></li>
+                    <li><a href="blog.html">BLOGS</a></li>
+                    <li><a href="Contact.html">CONTACT US</a></li>
+                  </ul>
+              </div>
+              <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>You at the right place now...<br>The number one in town</h1>
+        <p>Welcome to SweetPaw the one and true Pet Sitting Website that will provide the best service for you.
+        </p>
+        <a href="Contact.html" class="sigh-btn"> Send us an Email to make an appointment with us</a>
+    </div>
+    </section>
+
+<!--------- Toggle menu ------------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+<!--------Petservices---------->
+<section class= "services">
+  <h1>Services we offer</h1>
+  <p>We are providing all kind of pet services such as </p>
+
+  <div class="row">
+    <div class="service-col">
+      <h3>Dog Walking</h3>
+      <p>Aim for 30 minute walks, five times per week.
+        Keep your dog on its leash in public areas, unless it’s an ‘off leash’ zone. Contact your local council about areas where dogs can be exercised off leash.
+        Supervise your dog around young children.
+        Take a plastic bag or scoop to clean up your dog’s poo.
+        Make sure you</p>
+    </div>
+    <div class="service-col">
+      <h3>Pet Sitting</h3>
+      <p>We have a lot of experienced and positive attitude pet sitter that you could ask for. Our staffs are flexible and have a caring nature. And most importantly they all are responsible and trustworthy that we can assure you nothing go wrong with your beloved one.</p>
+    </div>
+    <div class="service-col">
+      <h3>Dog Trainning</h3>
+      <p>Aim for 30 minute walks, five times per week.
+        Keep your dog on its leash in public areas, unless it’s an ‘off leash’ zone. Contact your local council about areas where dogs can be exercised off leash.
+        Supervise your dog around young children.
+        Take a plastic bag or scoop to clean up your dog’s poo.
+        Make sure your dog is properly identified.
+        Make sure your dog is desexed.
+        Avoid walking in extreme heat.
+        Take fresh water for you and your dog to drink.</p>
+    </div>
+  </div>
+
+</section>
+
+<!--------- Our Activities ------->
+
+<section class="activities">
+    <h1>Our Activities</h1>
+
+    <div class="row">
+      <div class="activities-col">
+          <img src="Images/activities1.jpeg">
+          <h3>Here is one of our pet sitter during their work time</h3>
+          <p>Take a plastic bag or scoop to clean up your dog’s poo. Make sure your dog is properly identified.</p>
+      </div>
+      <div class="activities-col">
+          <img src="Images/activities4.png">
+          <h3>Here is one of our pet sitter during their work time</h3>
+          <p>Take a plastic bag or scoop to clean up your dog’s poo. Make sure your dog is properly identified.</p>
+      </div>
+      <div class="activities-col">
+          <img src="Images/blog.jpeg">
+          <h3>Here is one of our pet sitter during their work time</h3>
+          <p>Take a plastic bag or scoop to clean up your dog’s poo. Make sure your dog is properly identified.</p>
+      </div>
+    </div>
+
+
+
+</section>
+
+<!---------------feedback---------->
+<section class="feedback">
+    <h1>Here some feedbacks from our client</h1>
+
+
+    <div class="row">
+        <div class="feedback-col">
+            <img src="Images/client1.jpg">
+            <div>
+                <p>With the lowest fee in the field, SweetPaw is the best you could ask for. </p>
+                <h3>Jessica Chan</h3
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+        </div>
+        <div class="feedback-col">
+            <img src="Images/client2.jpg">
+            <div>
+                <p>Absolutely brilliant... Deffinitely worth it. </p>
+                <h3>John Pathrik</h3>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<!----------call to action--------->
+
+<section class="cta">
+  <h1>If you have any question feel free to send us your query.</h1>
+  <a href="Contact.html" class= "sigh-btn">Contact Us</a>
+</section>
+
+<!--------- footer--------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Keep your dog on its leash in public areas, unless it’s an ‘off leash’ zone. Contact your local council about areas where dogs can be exercised off leash.
+    Supervise your dog around young children.
+    <br>Take a plastic bag or scoop to clean up your dog’s poo.
+    Make sure your dog is properly identified.
+    Make sure your dog is desexed.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter-square"></i>
+    </div>
+    <p>@SweetPaw</p>
+</section>
+
+
+</body>
+
+
+</html>
